@@ -3,6 +3,7 @@
   Nick O'Leary
   http://knolleary.net
 */
+//multiple mqtt broker support
 
 #include "PubSubClient.h"
 #include "Arduino.h"
