@@ -279,7 +279,7 @@ bool gatewayTransportAvailable(void)
 		return false;
 	}
 #endif
-	if (!_MQTT_client.connected()) {
+	if (!_MQTT_client.connected(void)) {
 		//reinitialise client
 		if (gatewayTransportConnect()) {
 			reconnectMQTT();
